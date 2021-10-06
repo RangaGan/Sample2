@@ -1,1 +1,13 @@
 This is modififd file here by Ranga 
+
+
+
+What is dependency Injection?
+The process of injecting dependent bean objects into target bean objects is called dependency injection.
+
+Setter Injection: The IOC container will inject the dependent bean object into the target bean object by calling the setter method.
+Constructor Injection: The IOC container will inject the dependent bean object into the target bean object by calling the target bean constructor.
+Field Injection: The IOC container will inject the dependent bean object into the target bean object by Reflection API.
+
+34. What is an IOC container?
+IoC Container is a framework for implementing automatic dependency injection. It manages object creation and its life-time and also injects dependencies into the class.
